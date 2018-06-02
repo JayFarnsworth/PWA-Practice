@@ -7,7 +7,7 @@ Read my post in the freeCodeCamp blog on Medium for a tutorial on how to create 
 - [How you can make a progressive web app in an hour – freeCodeCamp](https://medium.freecodecamp.org/how-you-can-make-a-progressive-web-app-in-an-hour-7e36d560610e)
 
 <p align="center">
-  <a href="https://medium.freecodecamp.org/how-you-can-make-a-progressive-web-app-in-an-hour-7e36d560610e">
+  <a href="images/progressive-web-app-in-an-hour.png">
     <img src="images/progressive-web-app-in-an-hour.png" border="3" style="border-radius: 10px;">
   </a>
 </p>
@@ -15,6 +15,7 @@ Read my post in the freeCodeCamp blog on Medium for a tutorial on how to create 
 ## Create your app
 
 Clone this repo (or just copy the bits you need). The main files to edit are:  
+
 - [public/index.html](public/index.html) The main page for your app
 - [public/style/style.css)](public/style/style.css) Add your own styling to this file
 - [public/scripts/app.js](public/scripts/app.js) This contains the javascript to handle the logic in your app. It currently uses localStorage for storing data when the use clicks the button, it is recommended to use another database in production, such as indexedDb (Read more [here](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/#intercept_the_network_request_and_cache_the_response))
@@ -76,6 +77,4 @@ Here is an example I have made, hosted on firebase:
 
 ## Resources
 
-The resources used to create this app:
-
-- https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/
+- [Your First Progressive Web App  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/)
