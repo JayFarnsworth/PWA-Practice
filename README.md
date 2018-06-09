@@ -72,7 +72,7 @@ Clone this repo (or just copy the bits you need). The main files to edit are:
 ## Examples
 
 Here is an example I have made, hosted on firebase:
-- [ryandav/qr-code-pwa](https://github.com/ryandav/qr-code-pwa)
+- [ryanwhocodes/qr-code-pwa](https://github.com/ryanwhocodes/qr-code-pwa)
 - [qr-code-pwa.firebaseapp.com/](https://qr-code-pwa.firebaseapp.com/)
 
 ## Resources
