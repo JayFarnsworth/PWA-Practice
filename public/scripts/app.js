@@ -18,6 +18,9 @@ function readURL(input) {
     reader.readAsDataURL(input.files[0]);
   }
 }
-$("#imgInp").change(function () {
-  readURL(this);
-});
+document.querySelector('#imgInp').addEventListener('change', function() {
+  readURL(this)
+})
+// $("#imgInp").change(function () {
+//   readURL(this);
+// });
