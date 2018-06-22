@@ -1,6 +1,6 @@
 {
-  "name": "Template PWA",
-  "short_name": "Template PWA",
+  "name": "Jay's Test PWA",
+  "short_name": "Jay's Test PWA",
   "icons": [{
     "src": "images/icons/icon.png",
       "sizes": "450x450",
