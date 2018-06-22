@@ -21,6 +21,3 @@ function readURL(input) {
 document.querySelector('#imgInp').addEventListener('change', function() {
   readURL(this)
 })
-// $("#imgInp").change(function () {
-//   readURL(this);
-// });
