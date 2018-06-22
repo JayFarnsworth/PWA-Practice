@@ -1,0 +1,19 @@
+{
+  "name": "template-progressive-web-app",
+  "version": "1.0.0",
+  "description": "A template you can use to quickly build a progressive web app that works online, offline, in a browser and as a mobile app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanwhocodes/template-progressive-web-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanwhocodes/template-progressive-web-app/issues"
+  },
+  "homepage": "https://github.com/ryanwhocodes/template-progressive-web-app#readme"
+}
