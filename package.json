@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ryanwhocodes/template-progressive-web-app/issues"
   },
-  "homepage": "https://github.com/ryanwhocodes/template-progressive-web-app#readme"
+  "homepage": "https://github.com/ryanwhocodes/template-progressive-web-app#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
 }
