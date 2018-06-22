@@ -1,7 +1,21 @@
-.card {
-  margin: 15px;
+header {
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header h1 {
+  color: white;
+  font-family: sans-serif;
 }
 
-.container {
-  text-align: center;
+.form-main {
+  display: flex;
+  flex-direction: column;
+}
+.camera-button {
+  width: 50vw;
+  height: auto;
 }

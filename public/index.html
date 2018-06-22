@@ -32,11 +32,20 @@
   <body>
 
     <header>
-      <h1>Test App</h1>
+      <h1>Testbook</h1>
     </header>
 
-    <main class="container">
-      <input type="file" accept="image/*" capture="camera" />
+    <main>
+      <h2>New User</h2>
+      <form class='form-main'>
+        <input name='firstName' type='text' placeholder='First'>
+        <input name='lastName' type='text' placeholder='Last'>
+        <input type='image' class='camera-button' src='images/img-default.png' accept="image/*" capture="camera">
+        <video class='video-element'></video>
+        <button id='image-capture'>Capture</button>
+        <input type="file" accept="image/*" capture="camera" />
+      </form>
+      
     </main>
 
     <script type="text/javascript" src="scripts/app.js"></script>
