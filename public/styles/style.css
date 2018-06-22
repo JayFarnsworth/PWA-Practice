@@ -19,3 +19,7 @@ header h1 {
   width: 50vw;
   height: auto;
 }
+.img-capture {
+  height: 100%;
+  width: 50vh;
+}
