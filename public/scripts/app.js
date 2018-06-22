@@ -1,21 +1,23 @@
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+            .register('./service-worker.js')
+            .then(function() { console.log('Service Worker Registered'); });
+}
+function previewImage(event){
+  event.preventDefault();
+  document.querySelector('.img-capture').src = '';
+}
+function readURL(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
 
-  window.onload = function() {
-    let message = localStorage.getItem("message") || 'Your message will display here';
-    $('#message').html(message);
-    $('#display').html(message);
+    reader.onload = function (e) {
+      $('#preview').attr('src', e.target.result);
+    }
+
+    reader.readAsDataURL(input.files[0]);
   }
-
-
-  $('#button').click(() => {
-    console.log('click')
-    let message = $('#message').val();
-    console.log(message);
-    $('#display').html(message);
-    localStorage.setItem("message", message);
-  });
-
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-             .register('./service-worker.js')
-             .then(function() { console.log('Service Worker Registered'); });
-  }
+}
+$("#imgInp").change(function () {
+  readURL(this);
+});

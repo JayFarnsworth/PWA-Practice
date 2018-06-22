@@ -9,7 +9,6 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link rel="stylesheet" type="text/css" href="styles/new-age.css">
 
 
     <script type="text/javascript" src="scripts/jquery-3.3.1.js"></script>
@@ -37,13 +36,13 @@
 
     <main>
       <h2>New User</h2>
-      <form class='form-main'>
+      <form class='form-main' action=''>
         <input name='firstName' type='text' placeholder='First'>
         <input name='lastName' type='text' placeholder='Last'>
-        <div className='img-capture'></div>
-        <input type="file" accept="image/*" capture="environment" />
+        <input type='file' id="imgInp" />
+        <img id="preview" src="#" alt="your image" />
+        <button type='submit'>SUBMIT</button>
       </form>
-      
     </main>
 
     <script type="text/javascript" src="scripts/app.js"></script>
